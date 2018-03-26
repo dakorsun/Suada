@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
-		prefixer = require('gulp-autoprefixer');
+var prefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function() {
 	return gulp.src('dev/sass/main.sass')
