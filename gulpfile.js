@@ -8,10 +8,10 @@ gulp.task('sass', function() {
 				.pipe(plumber())
 				.pipe(sass())
 				.pipe(prefixer({
-		      browsers: ['last 15 versions'],
-		      cascade: false
-		    }))
-		.pipe(gulp.dest('dist/css'));
+		      			browsers: ['last 15 versions'],
+		      			cascade: false
+		    		}))
+				.pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('watch', function() {
